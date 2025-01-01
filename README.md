@@ -2,7 +2,7 @@
 
 This is the [ComfyUI](https://github.com/comfyanonymous/ComfyUI) custom node template repository that anyone can use to create their own custom nodes.
 
-# Directory Structure
+## Directory Structure
 ```
 Project-Name/
 ├── .github/                # GA workflow for publishing the ComfyUI registry 
