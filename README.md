@@ -48,6 +48,13 @@ After generating the repository from this template, uncomment the branches to en
 
 https://github.com/jhj0517/ComfyUI-CustomNodes-Template/blob/24941ae8995217490f2f37aceaf5ccf9ae632995/.github/workflows/publish-comfyui-registry.yml#L6-L8
 
+## How to Strat Using Template
+
+Click "Use this template" -> "Create a new repository", then you can create your own custom node from there.
+
+![image](https://github.com/user-attachments/assets/fab4da53-0458-4e88-adc1-5bb5d341a511)
+
+
 The custom node installation guide below can usually be used for any custom node, you can use it in your README by modifying the repository name and URL.
 ## Installation
 
