@@ -2,7 +2,7 @@
 
 This is the [ComfyUI](https://github.com/comfyanonymous/ComfyUI) custom node template repository that anyone can use to create their own custom nodes.
 
-# Directory Structure
+## Directory Structure
 ```
 Project-Name/
 ├── .github/                # GA workflow for publishing the ComfyUI registry 
@@ -46,7 +46,13 @@ You have to register your "REGISTRY_ACCESS_TOKEN" in the Github Action Secrets w
 
 After generating the repository from this template, uncomment the branches to enable the workflow with auto trigger:
 
-https://github.com/jhj0517/ComfyUI-CustomNodes-Template/tree/master/.github/workflows/publish-comfyui-registry.yml#L6-L8
+https://github.com/jhj0517/ComfyUI-CustomNodes-Template/blob/24941ae8995217490f2f37aceaf5ccf9ae632995/.github/workflows/publish-comfyui-registry.yml#L6-L8
+
+## How to Strat Using Template
+
+Click "Use this template" -> "Create a new repository", then you can create your own custom node from there.
+
+![image](https://github.com/user-attachments/assets/fab4da53-0458-4e88-adc1-5bb5d341a511)
 
 
 The custom node installation guide below can usually be used for any custom node, you can use it in your README by modifying the repository name and URL.
@@ -54,7 +60,7 @@ The custom node installation guide below can usually be used for any custom node
 
 1. git clone repository into `ComfyUI\custom_nodes\`
 ```
-https://github.com/replace-this-with-your-github-repository-url.git
+git clone https://github.com/replace-this-with-your-github-repository-url.git
 ```
 
 2. Go to `ComfyUI\custom_nodes\ComfyUI-Your-CustomNode-Name` and run
