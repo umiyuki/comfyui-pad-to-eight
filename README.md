@@ -46,8 +46,7 @@ You have to register your "REGISTRY_ACCESS_TOKEN" in the Github Action Secrets w
 
 After generating the repository from this template, uncomment the branches to enable the workflow with auto trigger:
 
-https://github.com/jhj0517/ComfyUI-CustomNodes-Template/tree/master/.github/workflows/publish-comfyui-registry.yml#L6-L8
-
+https://github.com/jhj0517/ComfyUI-CustomNodes-Template/blob/24941ae8995217490f2f37aceaf5ccf9ae632995/.github/workflows/publish-comfyui-registry.yml#L6-L8
 
 The custom node installation guide below can usually be used for any custom node, you can use it in your README by modifying the repository name and URL.
 ## Installation
