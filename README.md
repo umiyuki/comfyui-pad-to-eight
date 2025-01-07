@@ -24,7 +24,32 @@ python_embeded\python.exe -m pip install -r ComfyUI\custom_nodes\ComfyUI-PadToEi
 
 1. Load the node in ComfyUI
 2. Connect your image to the PadToEight node
-3. The node will automatically pad the image dimensions to be multiples of 8
+3. The node will:
+   - Resize the image to 1024px height while maintaining aspect ratio
+   - Pad the width to the nearest multiple of 8 pixels
+   - Return the processed image along with its final dimensions
+
+### Input/Output
+- **Input**: 
+  - `image`: Any RGB image tensor
+- **Output**:
+  - `image`: Processed image tensor
+  - `width`: Final image width (multiple of 8)
+  - `height`: Final image height (1024px)
+
+### Example Workflow
+```json
+{
+  "nodes": [
+    {
+      "type": "PadToEight",
+      "inputs": {
+        "image": "<your_image>"
+      }
+    }
+  ]
+}
+```
 
 ## Features
 
