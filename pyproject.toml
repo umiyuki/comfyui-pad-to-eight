@@ -1,17 +1,17 @@
 #  Edit the following fields to match your project
 
 [project]
-name = "comfyui-customnodes-template"
-description = "Template repository for custom nodes from [ComfyUI-CustomNodes-Template](https://github.com/jhj0517/ComfyUI-CustomNodes-Template)."
+name = "comfyui-pad-to-eight"
+description = "A custom ComfyUI node that pads an image to a multiple of 8 width."
 version = "1.0.0"
 license = {file = "LICENSE"}
-dependencies = ["",]  # e.g.) ["numpy==1.18.1", ]
+dependencies = []
 
 [project.urls]
-Repository = "https://github.com/jhj0517/ComfyUI-CustomNodes-Template"
+Repository = "https://github.com/your-username/comfyui-pad-to-eight"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = "jhj0517"
-DisplayName = "ComfyUI-CustomNodes-Template"
+PublisherId = "your-username"
+DisplayName = "ComfyUI Pad To Eight"
 Icon = ""
